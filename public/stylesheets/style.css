@@ -1,0 +1,175 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#leftside {
+  background-color: #d9ffcc;
+  width: 20%;
+  float: left;
+  height: 500px;
+  z-index: 0;
+  position: absolute;
+  left: 0
+}
+
+h1 {
+  width: 95%;
+  float: right;
+  margin-left: 5%;
+  color: #ffffff;
+}
+
+h2 {
+  padding-bottom: 20px
+}
+
+h3 {
+    padding-left: 10px;
+    color: #2db300;
+    padding-bottom: 20px
+}
+
+.fa-chevron-right {
+  color: #2db300;
+  padding-right: 10px
+}
+
+.fa-heart-o {
+  color: #2db300
+}
+
+.fa-bus {
+  color: #2db300;
+  padding-left: 5px;
+}
+
+.fa-newspaper-o {
+  color: #1a6600
+}
+
+.fa-map {
+  color: #ffffff; 
+}
+
+.fa-pencil-square-o {
+  color: #2db300;
+}
+
+#header {
+  z-index: 1;
+  opacity: 0.9;
+  background-color: #66ff66;
+  color: #ffffff;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+
+.map {
+  width: 80%;
+  left: 0;
+  margin-left: 20%;
+  height: 549px;
+  z-index: 0;
+  top: 0;
+  position: absolute;
+  background-color: grey
+}
+
+#infobox {
+  width: 25%;
+  float: right;
+  height: 330px;
+  margin-top: 95px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.8;
+  background-color: #66ff66;
+  color: #ffffff;
+}
+
+#infocontent {
+  padding-left: 10px
+}
+
+#info {
+  font-size: 18px;
+  padding-left: 10px
+}
+
+
+#infoarea {
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 10px
+}
+
+#infoareabox {
+  width: 22%;
+  height: 290px;
+  border: 2px solid #2db300;
+  margin-left: 9%;
+  top: 600px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  color: #2db300;
+}
+
+#infoboxp {
+  padding-left: 15px;
+  font-size: 16px
+}
+
+#infoboxpelec {
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffff00
+}
+
+#feed {
+  width: 100%;
+  top: 1050px;
+  left: 0;
+  height: 500px;
+  overflow-y: scroll;
+  color: black;
+  background-color: #e6ffe6;
+  position: absolute
+}
+
+#newsh3 {
+  padding-top: 30px;
+  padding-left: 10px;
+  color: #1a6600
+}
+
+#newstitle {
+  padding-left: 40px;
+  font-size: 20px;
+  color: #2db300;
+  padding-top: 15px;
+  border-top: 1px solid #ffffff
+}
+
+#newsdate {
+  padding-left: 40px;
+  color: #404040
+}
+
+#newslink {
+  padding-left: 40px;
+  padding-bottom: 15px;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 1500px;
+  left: 0;
+  position: absolute;
+  background-color: #ffffff;
+  height: 100px;
+}
